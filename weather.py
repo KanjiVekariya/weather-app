@@ -10,7 +10,7 @@ Label(f1,text="Enter your City ",fg="black",bg=f1["bg"],font=("Arial 15")).grid(
 
 def weatherAPI(city,weather,temperature,huminity,wind_speed):
     
-    API_KEY = "b0194524cf3eb0bfd51eeee2ae2749cd"  # Replace with your actual API key
+    API_KEY = "Your_API_KEY"  # Replace with your actual API key
     
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}"
 
